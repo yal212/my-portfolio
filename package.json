@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "scripts": {
+    "dev": "http-server -p 3000 -o -c-1",
+    "dev:live": "live-server --port=3000 --open=/index.html",
+    "start": "http-server -p 8000 -o",
+    "build": "echo 'No build step needed for static HTML'",
+    "preview": "http-server -p 8000 -o"
+  },
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Features a clean design, smooth animations, and mobile-first responsive layout.",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
